@@ -16,10 +16,16 @@
     flex-direction: column;
     padding: 0.5rem 0;
 }
+
 #head h1{
     text-align: center;
     padding: 5px;
 }
+
+#head textarea {
+    padding: 0.5rem;
+}
+
 .btn-group{
     display: flex;
     justify-content: center;
