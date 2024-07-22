@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #7dbff1;
+}
+
+.eyes{
+    margin: 5rem auto;
+    width: 400px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.eye{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.pupil{
+  position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    border-radius: 50%;
+}
